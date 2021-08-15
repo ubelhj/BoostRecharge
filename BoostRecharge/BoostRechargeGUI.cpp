@@ -75,7 +75,7 @@ void BoostRecharge::RenderSettings() {
 		gameWrapper->Execute([this, blueDelayCvar, blueDelay](...) mutable { blueDelayCvar.setValue(blueDelay); });
 	}
 
-	if (ImGui::SliderFloat("Boost Rate##blue", &blueRate, 0.0, 0.5)) {
+	if (ImGui::SliderFloat("Boost Rate##blue", &blueRate, 0.0, 1.0)) {
 		gameWrapper->Execute([this, blueRateCvar, blueRate](...) mutable { blueRateCvar.setValue(blueRate); });
 	}
 
@@ -112,7 +112,7 @@ void BoostRecharge::RenderSettings() {
 		gameWrapper->Execute([this, orangeDelayCvar, orangeDelay](...) mutable { orangeDelayCvar.setValue(orangeDelay); });
 	}
 
-	if (ImGui::SliderFloat("Boost Rate##orange", &orangeRate, 0.0, 0.5)) {
+	if (ImGui::SliderFloat("Boost Rate##orange", &orangeRate, 0.0, 1.0)) {
 		gameWrapper->Execute([this, orangeRateCvar, orangeRate](...) mutable { orangeRateCvar.setValue(orangeRate); });
 	}
 
