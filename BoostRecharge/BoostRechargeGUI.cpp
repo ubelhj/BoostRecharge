@@ -1,9 +1,8 @@
 #include "pch.h"
 #include "BoostRecharge.h"
 
-/* Plugin Settings Window code here
 std::string BoostRecharge::GetPluginName() {
-	return "BoostRecharge";
+	return "Boost Recharge";
 }
 
 void BoostRecharge::SetImGuiContext(uintptr_t ctx) {
@@ -16,7 +15,6 @@ void BoostRecharge::SetImGuiContext(uintptr_t ctx) {
 void BoostRecharge::RenderSettings() {
 	ImGui::TextUnformatted("BoostRecharge plugin settings");
 }
-*/
 
 /*
 // Do ImGui rendering here

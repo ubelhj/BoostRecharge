@@ -8,7 +8,7 @@
 constexpr auto plugin_version = stringify(VERSION_MAJOR) "." stringify(VERSION_MINOR) "." stringify(VERSION_PATCH) "." stringify(VERSION_BUILD);
 
 
-class BoostRecharge: public BakkesMod::Plugin::BakkesModPlugin/*, public BakkesMod::Plugin::PluginSettingsWindow*//*, public BakkesMod::Plugin::PluginWindow*/
+class BoostRecharge: public BakkesMod::Plugin::BakkesModPlugin, public BakkesMod::Plugin::PluginSettingsWindow/*, public BakkesMod::Plugin::PluginWindow*/
 {
 
 	//std::shared_ptr<bool> enabled;
@@ -17,12 +17,12 @@ class BoostRecharge: public BakkesMod::Plugin::BakkesModPlugin/*, public BakkesM
 	virtual void onLoad();
 	virtual void onUnload();
 
+	void setBoostValues();
+
 	// Inherited via PluginSettingsWindow
-	/*
 	void RenderSettings() override;
 	std::string GetPluginName() override;
 	void SetImGuiContext(uintptr_t ctx) override;
-	*/
 
 	// Inherited via PluginWindow
 	/*
