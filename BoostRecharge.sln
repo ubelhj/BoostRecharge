@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BoostRecharge", "BoostRecharge\BoostRecharge.vcxproj", "{9599E0C2-4536-4976-A3FC-1C66E7433983}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9599E0C2-4536-4976-A3FC-1C66E7433983}.Release|x64.ActiveCfg = Release|x64
+		{9599E0C2-4536-4976-A3FC-1C66E7433983}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83E28DAC-3E1B-47F3-8D0C-55D6720050E8}
+	EndGlobalSection
+EndGlobal
