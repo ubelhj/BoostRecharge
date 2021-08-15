@@ -17,6 +17,8 @@ class BoostRecharge: public BakkesMod::Plugin::BakkesModPlugin, public BakkesMod
 	virtual void onLoad();
 	virtual void onUnload();
 
+	void hookEvents();
+	void unHookEvents();
 	void setBoostValues();
 
 	// Inherited via PluginSettingsWindow
